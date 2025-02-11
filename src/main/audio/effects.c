@@ -276,12 +276,13 @@ void effects_set_sound()
 
     effects_load_sound(sound);
 
+/*
     // Special Case Use Bank 4
     if (g_channel->sound == 0x85 || g_channel->sound == 0x78 || g_channel->sound == 0x41 || g_channel->sound == 0x2A)
     {
         g_channel->bank = 0;
     }
-
+*/
 }
 
 void effects_load_sound(Sound *sound)
